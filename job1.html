@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeBuff 饰品交易暂挂平台</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: black;
+        }
+        .recommendations, .following {
+            margin: 20px;
+        }
+        .items, .follow-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .item, .follow-item {
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            width: 100px;
+        }
+        .follow-table {
+            border: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+        }
+        .tiffany-blue {
+            color: #00abcd; /* 提夫尼蓝色 */
+            font-weight: bold;
+            font-family: "SimSun"; /* 宋体 */
+        }
+        .rolex-green {
+            color: #00a859; /* 劳力士绿色 */
+            font-family: "FangSong"; /* 仿宋体 */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">首页</a>
+        <a href="#">买入</a>
+        <a href="#">出租</a>
+        <a href="#">关注</a>
+        <a href="#">卖出</a>
+        <a href="#">竞拍</a>
+        <a href="#">我的</a>
+    </div>
+
+    <div class="recommendations">
+        <h2>为您推荐</h2>
+        <div class="items">
+            <div class="item">A <br> price</div>
+            <div class="item">B <br> price</div>
+            <div class="item">C <br> price</div>
+            <div class="item">D <br> price</div>
+            <div class="item">E <br> price</div>
+            <div class="item">F <br> price</div>
+        </div>
+        <a href="#">查看更多 ></a>
+    </div>
+
+    <div class="following">
+        <h2>您的关注</h2>
+        <div class="follow-tables">
+            <div class="follow-table">
+                <h3>A</h3>
+                <p>近日降价</p>
+                <p>名称 价格 <button>购买</button></p>
+                <p>卖家1 价格 <button>购买</button></p>
+                <p>卖家2 价格 <button>购买</button></p>
+                <p>卖家3 价格 <button>购买</button></p>
+            </div>
+            <div class="follow-table">
+                <h3>B</h3>
+                <p>名称 价格 <button>购买</button></p>
+                <p>卖家1 价格 <button>购买</button></p>
+                <p>卖家2 价格 <button>购买</button></p>
+                <p>卖家3 价格 <button>购买</button></p>
+            </div>
+        </div>
+        <div class="follow-items">
+            <div class="follow-item">C <br> 价格 <button>buy</button></div>
+            <div class="follow-item">D <br> 价格 <button>buy</button></div>
+            <div class="follow-item">E <br> 价格 <button>buy</button></div>
+            <div class="follow-item">F <br> 价格 <button>buy</button></div>
+            <div class="follow-item">G <br> 价格 <button>buy</button></div>
+            <div class="follow-item">H <br> 价格 <button>buy</button></div>
+            <div class="follow-item">I <br> 价格 <button>buy</button></div>
+            <div class="follow-item">J <br> 价格 <button>buy</button></div>
+        </div>
+        <a href="#">查看更多 ></a>
+    </div>
+
+    <p class="rolex-green">倒数第二段文字 —— 劳力士绿色、仿宋体</p>
+    <p class="tiffany-blue">最后一段文字 —— 提夫尼蓝色、宋体加粗</p>
+</body>
+</html>
